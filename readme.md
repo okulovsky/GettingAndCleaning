@@ -14,18 +14,18 @@ data and unzips it to 'Data' folder. This folder is ignored in git.
 Note that pathes for the required files are similar in both folders: /test/[filename]_test.txt and /train/[filename]_train.txt. The method readFromBothSource reads
 data from two files with the specified filename, located in test/ and train/ folders, and concatenates the read tables.
 
-## Task 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+## Task 2. Extract only the measurements on the mean and standard deviation for each measurement.
 
 The required columns are selected with grepl function, and then subset the read data.
 
-## Uses descriptive activity names to name the activities in the data set
+## Task 3. Use descriptive activity names to name the activities in the data set
 
 The code is self-explanatory.
 
-## Appropriately labels the data set with descriptive variable names.
+## Task 4. Appropriately label the data set with descriptive variable names.
 
 The initial names of the data are transformed with regular expression, e.g. tBodyAcc-mean()-Z -> tBodyAcc.Z.mean, fBodyBodyGyroJerkMag-mean() -> fBodyBodyGyroJerkMag.mean
 
-## From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## Task 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The code is self-explanatory
