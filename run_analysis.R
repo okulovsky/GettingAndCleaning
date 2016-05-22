@@ -59,4 +59,4 @@ avgs$Activity<-NULL
 avgs$Subject<-NULL
 colnames(avgs)[1]<-"Subject"
 colnames(avgs)[2]<-"Activity"
-write.csv(avgs,"tidyData2.csv")
+write.table(avgs,"tidyData2.txt", row.names="TRUE")

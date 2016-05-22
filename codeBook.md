@@ -1,6 +1,6 @@
 # Summary
 
-This file describes files tidyData1.csv and tidyData2.csv, that are the result of using run_analysis.R 
+This file describes files tidyData1.csv and tidyData2.txt, that are the result of using run_analysis.R 
 on the initial data for Human Activity Recognition Using Smartphones Dataset.
 
 ## Initial data
@@ -34,6 +34,12 @@ This file stores data frames with the following columns:
  * The activity performed
  * The measurements, copied from the initial datasets/Human
  
- ## tidyData2.csv
+ ## tidyData2.txt
  
- This file stores data frames with the same structure, as tidyData1.csv, but all measurements are averaged for each person and each activity.
+ This file stores data frames in txt format. The data structure is almost the same, as in tidyData1.csv, but 
+ * all measurements are averaged for each person and each activity.
+ * row names are excluded
+ * format is changed to txt, as required by the coursera
+ 
+ 
+ 
